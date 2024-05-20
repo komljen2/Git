@@ -10,7 +10,7 @@ git commit -m "abcd"
 git branch -M main
 git remote add origin https://github.com/abcd/PPS_DOCKER.git (si da fallo)
   git remore remove origin
-GENERAR LA CLAVE DE GITHUB: https://github.com/settings/tokens
+TOKEN: https://github.com/settings/tokens
 git push -u origin main 
 Username for 'https://github.com': abcd
 Password for 'https://abcd@github.com': TOKEN GENERADO ARRIBA
