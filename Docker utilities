@@ -19,4 +19,28 @@ docker ps
 
 ##where dockerfile is##
 
-git config
+git config --user.email "email@gmail.com"
+git config --user.name "name"
+
+git init (if error)
+	  git config --global --unset init.defaultBranch
+		git config --list 
+		git init
+
+git add . 
+git commit -m "abc123"
+git branch -M main
+git remote add origin https://github.com/rute.git (if error)
+  git remote remove origin 
+TOKEN: https://github.com/settings/tokens
+git push -u origin main 
+Username for 'https://github.com': name
+Password for 'https://abc@github.com': TOKEN 
+
+UPDATE REPO 
+git add . 
+git commit -m "Diffname"
+git push -u origin main
+Username for 'https://github.com': name
+Password for 'https://abc123@github.com': TOKEN
+
