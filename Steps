@@ -1,0 +1,53 @@
+crear una carpeta y entrar en ella:
+git config --global user.email "abcd@gmail.com" 
+git config --global user.name "abcd"
+git init (da fallo)
+git config --global --unset init.defaultBranch
+git config --list 
+git init
+git add . (desde dentro de la carpeta)
+git commit -m "abcd"
+git branch -M main
+git remote add origin https://github.com/abcd/PPS_DOCKER.git
+GENERAR LA CLAVE DE GITHUB: https://github.com/settings/tokens
+git push -u origin main 
+Username for 'https://github.com': abcd
+Password for 'https://abcd@github.com': TOKEN GENERADO ARRIBA
+
+
+
+Para actualizar repo: 
+git add . (estando dentro de la carpeta)
+git commit "PonerUnoDiferenteParaEnterarse"
+git push -u origin main
+Username for 'https://github.com': abcd
+Password for 'https://abcd@github.com': TOKEN GENERADO ARRIBA
+
+
+
+-----------------------------------------------------------------------------------------
+
+crear una carpeta y entrar en ella:
+git config --global user.email "mjferfil@gmail.com" 
+git config --global user.name "imXZN"
+git init (da fallo)
+git config --global --unset init.defaultBranch
+git config --list 
+git init
+git add . (desde dentro de la carpeta)
+git commit -m "PuestaEnProduccion"
+git branch -M main
+git remote add origin https://github.com/imXZN/PPS_DOCKER.git
+GENERAR LA CLAVE DE GITHUB: https://github.com/settings/tokens
+git push -u origin main 
+Username for 'https://github.com': imXZN
+Password for 'https://imXZN@github.com': TOKEN GENERADO ARRIBA
+
+
+
+Para actualizar repo: 
+git add . (estando dentro de la carpeta)
+git commit "PonerUnoDiferenteParaEnterarse"
+git push -u origin main
+Username for 'https://github.com': imXZN
+Password for 'https://imXZN@github.com': TOKEN GENERADO ARRIBA
