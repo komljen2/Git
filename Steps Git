@@ -16,7 +16,6 @@ Username for 'https://github.com': abcd
 Password for 'https://abcd@github.com': TOKEN GENERADO ARRIBA
 
 
-
 Para actualizar repo: 
 git add . (estando dentro de la carpeta)
 git commit -m "PonerUnoDiferenteParaEnterarse"
@@ -43,7 +42,6 @@ GENERAR LA CLAVE DE GITHUB: https://github.com/settings/tokens
 git push -u origin main 
 Username for 'https://github.com': imXZN
 Password for 'https://imXZN@github.com': TOKEN GENERADO ARRIBA
-
 
 
 Para actualizar repo: 
