@@ -1,14 +1,15 @@
 crear una carpeta y entrar en ella:
 git config --global user.email "abcd@gmail.com" 
 git config --global user.name "abcd"
-git init (da fallo)
-git config --global --unset init.defaultBranch
-git config --list 
-git init
+git init (si da fallo)
+  git config --global --unset init.defaultBranch
+  git config --list 
+  git init
 git add . (desde dentro de la carpeta)
 git commit -m "abcd"
 git branch -M main
-git remote add origin https://github.com/abcd/PPS_DOCKER.git
+git remote add origin https://github.com/abcd/PPS_DOCKER.git (si da fallo)
+  git remore remove origin
 GENERAR LA CLAVE DE GITHUB: https://github.com/settings/tokens
 git push -u origin main 
 Username for 'https://github.com': abcd
@@ -18,7 +19,7 @@ Password for 'https://abcd@github.com': TOKEN GENERADO ARRIBA
 
 Para actualizar repo: 
 git add . (estando dentro de la carpeta)
-git commit "PonerUnoDiferenteParaEnterarse"
+git commit -m "PonerUnoDiferenteParaEnterarse"
 git push -u origin main
 Username for 'https://github.com': abcd
 Password for 'https://abcd@github.com': TOKEN GENERADO ARRIBA
