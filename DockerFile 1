@@ -1,0 +1,35 @@
+mkdir example1
+cd example1
+mkdir app
+cd app
+touch hi.php
+
+  ##enter this code: 
+
+      <?php 
+      echo "hi everyone";
+      ?>
+
+  ##save
+
+cd ..
+touch DockerFile
+enter Dockerfile (nano DockerFile or Graphical mode)
+
+  ##enter this code:
+
+      FROM php:7.4-apache
+    
+      WORKDIR /home/usuario/Escritorio/docker
+    
+      COPY app/ /var/www/html
+
+      EXPOSE 80
+
+      CMD ["apache2-foreground"]
+
+  ##save
+
+docker build -t image-name .
+docker run -d -p 8080:80 --name contenedor-name image-name
+
