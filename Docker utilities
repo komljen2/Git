@@ -1,0 +1,22 @@
+------------------------------DELETE DOCKER-------------------------------
+
+docker ps
+docker stop -f contenedor-name // docker rm --force contenedor-name
+docker rm contenedor-name
+docker ps
+docker ps -a
+
+
+---------------------------CREATE MULTIPLE DOCKERS------------------------
+
+for ((i=0; i<20; i++)); do docker run -d -p $((8080+$i)):80 --name contenedor$i image-name; done
+
+docker -rm --force contenedorX
+
+docker ps
+
+------------------------------UPDATE TO GITHUB-----------------------------
+
+##where dockerfile is##
+
+git config
