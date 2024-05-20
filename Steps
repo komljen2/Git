@@ -47,7 +47,7 @@ Password for 'https://imXZN@github.com': TOKEN GENERADO ARRIBA
 
 Para actualizar repo: 
 git add . (estando dentro de la carpeta)
-git commit "PonerUnoDiferenteParaEnterarse"
+git commit -m "PonerUnoDiferenteParaEnterarse"
 git push -u origin main
 Username for 'https://github.com': imXZN
 Password for 'https://imXZN@github.com': TOKEN GENERADO ARRIBA
