@@ -1,0 +1,22 @@
+mkdir docker2
+cd docker2
+touch DockerFile
+
+    ##enter this code:
+
+      FROM ubuntu:latest
+
+      RUN apt-get update && \
+          apt-get install -y apache2 php git
+
+      EXPOSE 80
+
+      RUN rm -sf /var/www/html/*
+      RUN git clone https://github.com/banago/simple-php-website.git /var/www/html
+
+      CMD ["apache2ctl", "-D", "FOREGROUND"]
+
+    ##save
+
+docker build -t image-name .
+docker run -d -p 8087:80 --name contenedor-name image-name
