@@ -18,7 +18,7 @@ enter Dockerfile (nano DockerFile or Graphical mode)
 
   ##enter this code:
 
-      FROM php:7.4-apache
+      FROM php:7.4-apache  // FROM php:apache // FROM php:latest
     
       WORKDIR /home/usuario/Escritorio/docker
     
