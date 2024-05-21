@@ -16,8 +16,8 @@ Username for 'https://github.com': abcd
 Password for 'https://abcd@github.com': TOKEN GENERADO ARRIBA
 
 
-Para actualizar repo: 
-git add . (into the folder)
+UPDATE repo: 
+git add . (into the folder) // git add new-name-folder-or-file (git add hi.txt // git add app/)
 git commit -m "abcd123"
 git push -u origin main
 Username for 'https://github.com': abcd
